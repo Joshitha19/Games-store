@@ -1,0 +1,10 @@
+{
+  "name": "game_store_frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./app/static/css/styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
